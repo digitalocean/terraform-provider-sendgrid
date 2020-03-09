@@ -1,0 +1,8 @@
+.terraform
+.vscode
+bin
+*.log
+*.tf
+*.tfstate
+*.tfstate.backup
+terraform-provider-sendgrid
