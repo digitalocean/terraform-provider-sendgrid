@@ -247,9 +247,9 @@ func waitForAPIKey(d *schema.ResourceData, m interface{}) error {
 			} else if key == nil {
 				return nil, statusWaiting, nil
 			} else if key.Name != name {
-				return nil, statusWaiting, nil
+				return nil, "", fmt.Errorf("name in created api-key is different from name: want=%s, got=%s", name, key.Name)
 			} else if !sliceContentsAreEqual(key.Scopes, scopes) {
-				return nil, statusWaiting, nil
+				return nil, "", fmt.Errorf("scopes in created api-key are different from desired scopes: want=%+v, got=%+v", scopes, key.Scopes)
 			}
 
 			return key, statusDone, nil
