@@ -11,7 +11,7 @@ Installation
 
 ### From Official Release
 
-1. Download the [latest release](https://github.internal.digitalocean.com/jmiller/terraform-provider-sendgrid/releases/latest) for your platform.
+1. Download the [latest release](https://github.com/digitalocean/terraform-provider-sendgrid/releases/latest) for your platform.
 1. Unzip to your [local plugins directory](https://www.terraform.io/docs/configuration/providers.html#third-party-plugins). For example, on linux:
 
     ```
