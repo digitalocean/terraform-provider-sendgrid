@@ -161,7 +161,7 @@ This provider requires a working installation of Go that is compatible with [Go 
 
 1. Clone the repository
     ```
-    git clone https://github.internal.digitalocean.com/jmiller/terraform-provider-sendgrid.git
+    git clone https://github.com/digitalocean/terraform-provider-sendgrid.git
     ```
 2. Build the `terraform-provider-sendgrid` plugin, which produces a binary in the current working directory.
     ```
