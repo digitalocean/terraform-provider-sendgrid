@@ -11,7 +11,7 @@ Installation
 
 ### From Official Release
 
-1. Download the [latest release](https://github.internal.digitalocean.com/jmiller/terraform-provider-sendgrid/releases/latest) for your platform.
+1. Download the [latest release](https://github.com/digitalocean/terraform-provider-sendgrid/releases/latest) for your platform.
 1. Unzip to your [local plugins directory](https://www.terraform.io/docs/configuration/providers.html#third-party-plugins). For example, on linux:
 
     ```
@@ -161,7 +161,7 @@ This provider requires a working installation of Go that is compatible with [Go 
 
 1. Clone the repository
     ```
-    git clone https://github.internal.digitalocean.com/jmiller/terraform-provider-sendgrid.git
+    git clone https://github.com/digitalocean/terraform-provider-sendgrid.git
     ```
 2. Build the `terraform-provider-sendgrid` plugin, which produces a binary in the current working directory.
     ```
